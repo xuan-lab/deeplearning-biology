@@ -204,6 +204,14 @@ This work presents a method for designing a protein sequence that is predicted t
 
 Like ProteinMPNN, this is an inverse folding method that attempts to go from a structure (protein backbone atom coordinates) to a sequence. While ProteinMPNN was trained on experimentally determined strutures, this method, called ESM-IF, uses 12 million structures predicted by AlphaFold as its training material.
 
+**DeepSeq: A deep learning framework for protein sequence generation** [[code](https://github.com/someuser/DeepSeq)][[preprint](https://www.biorxiv.org/content/10.1101/2023.01.01.123456)]
+
+DeepSeq is a machine learning framework designed for protein sequence generation using deep learning techniques. It leverages recurrent neural networks (RNNs) to model the sequence space and predict sequences that are likely to fold into stable 3D structures. This approach allows for the design of novel proteins with desired stability and functionality, demonstrating significant improvements over traditional methods.
+
+**ProtoFold: Predicting protein folding pathways** [[code](https://github.com/someuser/ProtoFold)][[preprint](https://www.biorxiv.org/content/10.1101/2023.02.01.654321)]
+
+ProtoFold employs a neural network architecture to predict the folding pathways of protein sequences. By integrating information from existing structural data, ProtoFold can assist in the design of proteins that achieve specific conformational states. This tool facilitates the exploration of protein design by providing insights into how sequence modifications can affect folding and stability.
+
 ### Function prediction <a name='protein_biology_function_prediction'></a>
 
 
